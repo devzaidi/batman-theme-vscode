@@ -1,0 +1,37 @@
+{
+    "name": "batman",
+    "version": "1.0.0",
+    "displayName": "The Batman Theme",
+    "description": "A dark theme inspired by the caped crusader.",
+    "publisher": "the-batman-theme",
+    "license": "MIT",
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/hmzaidi/batman-theme-vscode.git"
+	},
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "icon": "avatar.png",
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+		"batman",
+        "joker",
+        "gotham",
+        "arkham",
+		"dark",
+		"theme",
+		"color-theme"
+	],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Batman",
+                "uiTheme": "vs-dark",
+                "path": "./themes/batman.json"
+            }
+        ]
+    }
+}
