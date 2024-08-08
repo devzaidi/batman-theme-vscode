@@ -25,6 +25,26 @@ batman:
 # User interface
 colors:
 
+  # Integrated Terminal Colors
+  terminal.background: *EDITOR_BACKGROUND
+  terminal.foreground: *FOREGROUND
+  terminal.ansiBrightBlack: *EDITOR_BACKGROUND
+  terminal.ansiBrightRed: *LIGHT_RED
+  terminal.ansiBrightGreen: *JOKER_GREEN
+  terminal.ansiBrightYellow: *YELLOW
+  terminal.ansiBrightBlue: *LIGHT_BLUE
+  terminal.ansiBrightMagenta: *JOKER_PURPLE
+  terminal.ansiBrightCyan: *LIGHT_BLUE
+  terminal.ansiBrightWhite: *FOREGROUND
+  terminal.ansiBlack: *SECONDARY_BACKGROUND
+  terminal.ansiRed: *DARK_RED
+  terminal.ansiGreen: *JOKER_GREEN
+  terminal.ansiYellow: *YELLOW
+  terminal.ansiBlue: *DARK_BLUE
+  terminal.ansiMagenta: *JOKER_PURPLE
+  terminal.ansiCyan: *DARK_BLUE
+  terminal.ansiWhite: *FOREGROUND
+
   # Contrast Colors
   contrastBorder:                                                               # An extra border around elements to separate them from others for greater contrast
   contrastActiveBorder:                                                         # An extra border around active elements to separate them from others for greater contrast

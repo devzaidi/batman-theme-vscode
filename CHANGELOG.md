@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.1.0
+### Feat
+- Extend theme to the terminal
+
 ## 2.0.0
 ### Feat
 - Move to cleaner yaml implementation
